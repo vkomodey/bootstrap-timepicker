@@ -1,3 +1,5 @@
+/* */ 
+"format cjs";
 /*!
  * Timepicker Component for Twitter Bootstrap
  *
@@ -147,7 +149,7 @@
       if (step) {
         newVal = this.minute - step;
       } else {
-        newVal = this.minute - this.minuteStep + (this.minute % this.minuteStep);
+        newVal = this.minute - this.minuteStep;
       }
 
       if (newVal < 0) {
